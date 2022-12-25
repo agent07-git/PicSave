@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Source Sans Pro", "Source Sans Pro Fallback", Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-home-logo{
+    width: 90px;
+    margin: 5px;
+    cursor: pointer;
+}
+.form-container{
+    width: 400px;
+    padding: 10px;
+    display: block;
+    background-color: #fff;
+    border-top: 5px solid #0000FF;
+    border-bottom: 5px solid #0000FF;
+}
+.ethica-heading{
+	font-family: "Source Sans Pro","Source Sans Pro Fallback", Arial, Helvetica, sans-serif;
+	color:#FF3333;
+	margin-bottom:20px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.form-top-heading{
+	height: 20px;
+	font-family: "Source Sans Pro","Source Sans Pro Fallback", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.30;
+	letter-spacing: normal;
+	text-align: center;
+	color: #006400;
+}
+.lock-icon{
+    display: inline;
+text-align: justify;
+font-size: 24px;
+margin: 0 10px;
+color: #68696a;
+}
+.horizontal-line{
+    position: relative;
+    display: block;
+    border: solid 1px #d3d3d4;
+    margin: 10px auto;
+}
+.form-body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-input-container{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.form-body-input{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 7px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #333;
+}
+.form-input-container label {
+    position: absolute;
+    z-index:1;
+    font-size: .90rem;
+    color: #252c46;
+    width: 100%;
+    font-weight: 600;
+}
+
+.form-input_check-span{
+    align-self: flex-start;
+    font-size: 1.1rem;
+    font-family: "Source Sans Pro", "Source Sans Pro Fallback", Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    color: #3C4545;
+}
+.form-input_check{
+    transform: scale(1.4);
+    margin-right: 5px;
+}
+.form-submit-button{
+    width: 100%;
+    background-color: #0000FF;
+    height: 38px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+    font-family: "Source Sans Pro","Source Sans Pro Fallback", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    cursor: pointer;
+    color: #fff;
+}
+.form-submit-button:hover{
+    background-color: #0000F5;
+    font-size: 23px; 
+    height: 39px;   
+}
+.form-footer-links{
+    display: block;
+    color: #3C4545;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0 0 8px 20px;
+    cursor: pointer;
+}
+.form-footer-links:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#form_err{
+    display:none;
+    font-weight:600;
+    color:red;
+    font-size:13px;
+}
+
+@media screen and (max-width: 35.5625rem){
+	.form-container{
+        width: 90%;
+    }
+}

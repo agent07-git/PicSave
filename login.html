@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicSave Login Page</title>
+    <meta name="description" content="Save Your Memories Forever">
+    <link rel="stylesheet" href="login-signup.css">
+    <link rel="icon" type="image/x-icon" href="/img/we will put later favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="main-container">
+        <form method="POST" autocomplete="off" action="javascript:void(0);" class="form-container">        	
+            <div class="form-top-div">
+                <h1 class="form-top-heading">Start Saving Your Memories !</h1>
+            </div>
+            <hr class="horizontal-line">
+            <div class="form-body">
+                <div class="form-top-div">
+                	<img class="header-home-logo" src="logo.jpg" alt="Pic Save" />
+                </div>
+                <span id="form_err"></span>
+                <div class="form-input-container">
+                    <label>Username or Email</label>
+                    <input type="text" class="form-body-input" name="login_user" required>
+                </div>
+                <div class="form-input-container">
+                    <label>Password</label> 
+                    <input type="password" class="form-body-input" name="login_password" required> 
+                </div>
+                <div class="form-input-container">
+                    <label>Pin (4-digit)</label>
+                    <input type="tel" class="form-body-input" maxlength="4"  id="pin" name="login_pin" value="" required>  
+                </div>
+                <button type="submit" class="form-submit-button">Sign In</button>
+            </div>
+            <a href="#" class="form-footer-links">Forgot Username or Password ?</a>
+            <a href="signup.html" class="form-footer-links">Don't have an account ? Sign Up</a>
+        </form>
+    </main>
+</body>
+</html>
